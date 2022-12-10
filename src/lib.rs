@@ -1,7 +1,4 @@
-
-
-
-
+#![no_std]
 // single glyph structure
 #[repr(C)]
 pub struct PFXglyph{

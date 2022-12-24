@@ -1,0 +1,12 @@
+[package]
+name = "bitmap_gen"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+image = { version = "*" }
+clap = { version = "3.1.18",features = ["derive"]}
+heatshrink_byte = { git = "https://github.com/mean00/heatshrink" , features = ["encode"] }
+
